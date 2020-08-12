@@ -1,0 +1,30 @@
+.bulb {
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.bit {
+	text-align: center;
+	border-style: solid;
+	font-size: 18px;
+}
+
+.add {
+	padding-top: 50px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+input { 
+    text-align: center; 
+}
+
+#decimal {
+	border-style: solid;
+	text-align: center;
+}
+
+#binary {
+	border-style: solid;
+	text-align: center;
+}

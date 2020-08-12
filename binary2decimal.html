@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Binary to Decimal</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="b2d.css">
+</head>
+<body>
+<div class="jumbotron">
+	<h1>Binary to Decimal Conversion</h1>
+	<button id="reset" class="btn btn-secondary">Reset</button>
+</div>
+<div class=container>
+	<div class="row">
+		<div class="col">
+			<div>
+				<form class="bit">
+					<input class="byte" id="bit7" type="text" name="4" value="0" size="2" disabled> x 2<sup>7</sup>
+				</form>
+			</div>
+			<div class="bulb">
+				<img id="bulb7" src="off.svg">
+			</div>
+		</div>
+		<h1 class="add">+</h1>
+		<div class="col">
+			<div>
+				<form class="bit">
+					<input class="byte" id="bit6" type="text" name="4" value="0" size="2" disabled> x 2<sup>6</sup>
+				</form>
+			</div>
+			<div class="bulb">
+				<img id="bulb6" src="off.svg">
+			</div>
+		</div>
+		<h1 class="add">+</h1>
+		<div class="col">
+			<div>
+				<form class="bit">
+					<input class="byte" id="bit5" type="text" name="4" value="0" size="2" disabled> x 2<sup>5</sup>
+				</form>
+			</div>
+			<div class="bulb">
+				<img id="bulb5" src="off.svg">
+			</div>
+		</div>
+		<h1 class="add">+</h1>
+		<div class="col">
+			<div>
+				<form class="bit">
+					<input class="byte" id="bit4" type="text" name="4" value="0" size="2" disabled> x 2<sup>4</sup>
+				</form>
+			</div>
+			<div class="bulb">
+				<img id="bulb4" src="off.svg">
+			</div>
+		</div>
+		<h1 class="add">+</h1>
+		<div class="col">
+			<div>
+				<form class="bit">
+					<input class="byte" id="bit3" type="text" name="4" value="0" size="2" disabled> x 2<sup>3</sup>
+				</form>
+			</div>
+			<div class="bulb">
+				<img id="bulb3" src="off.svg">
+			</div>
+		</div>
+		<h1 class="add">+</h1>
+		<div class="col">
+			<div>
+				<form class="bit">
+					<input class="byte" id="bit2" type="text" name="4" value="0" size="2" disabled> x 2<sup>2</sup>
+				</form>
+			</div>
+			<div class="bulb">
+				<img id="bulb2" src="off.svg">
+			</div>
+		</div>
+		<h1 class="add">+</h1>
+		<div class="col">
+			<div>
+				<form class="bit">
+					<input class="byte" id="bit1" type="text" name="4" value="0" size="2" disabled> x 2<sup>1</sup>
+				</form>
+			</div>
+			<div class="bulb">
+				<img id="bulb1" src="off.svg">
+			</div>
+		</div>
+		<h1 class="add">+</h1>
+		<div class="col">
+			<div>
+				<form class="bit">
+					<input class="byte" id="bit0" type="text" name="4" value="0" size="2" disabled> x 2<sup>0</sup>
+				</form>
+			</div>
+			<div class="bulb">
+				<img id="bulb0" src="off.svg">
+			</div>
+		</div>
+	</div>
+	<div class="row mt-5">
+		<div class="col-xl-6">
+			<h5>Binary</h5>
+			<h1 id="binary">
+				<span id="b7">0</span>
+				<span id="b6">0</span>
+				<span id="b5">0</span>
+				<span id="b4">0</span>
+				<span id="b3">0</span>
+				<span id="b2">0</span>
+				<span id="b1">0</span>
+				<span id="b0">0</span>
+			</h1>
+		</div>
+		<div class="col-xl-6">
+			<h5>Decimal</h5>
+			<h1 id="decimal">0</h1>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="b2d.js" ></script>
+</body>
+</html>
